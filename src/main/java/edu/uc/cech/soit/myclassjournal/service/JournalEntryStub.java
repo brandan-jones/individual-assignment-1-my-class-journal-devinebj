@@ -9,7 +9,7 @@ import java.util.List;
 @Component
 public class JournalEntryStub implements IJournalService{
 
-    ArrayList<JournalEntry> allJournalEntries = new ArrayList<JournalEntry>();
+    List<JournalEntry> allJournalEntries = new ArrayList<JournalEntry>();
 
     @Override
     public void save(JournalEntry journalEntry) {
